@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="portfolio.js"></script>
+    <link rel="stylesheet" href="normalise.css" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <script
+      src="https://kit.fontawesome.com/4e9b44f205.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" name="" id="check" />
+      <label for="check" class="bars"><i class="fa-solid fa-bars"></i></label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html"> About </a></li>
+        <li><a href="portfolio" class="active">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide">
+          <img src="images/Hair - Home.png" alt="Image 1" />
+        </div>
+        <div class="slide">
+          <img src="images/Hair - About .png" alt="Image 2" />
+        </div>
+        <div class="slide">
+          <img src="images/Hair - Theory 1.png" alt="Image 2" />
+        </div>
+        <div class="slide">
+          <img src="images/Hair - Design.png" alt="Image 2" />
+        </div>
+        <!-- Add more slides for the first slider -->
+      </div>
+      <div class="slider-description">
+        <h2>Hair Website</h2>
+        <p>
+          Using React JS I coded a basic website based on black womens' hair and
+          embracing it as an art form. The website highlights all my design
+          decisions where I take into consideration UX and UI and as well as
+          aesthetics to appeal to users..
+        </p>
+      </div>
+      <button class="prev-btn">&lt;</button>
+      <button class="next-btn">&gt;</button>
+    </div>
+
+    <div class="footer">
+      <p><b>Email:</b> nozii.sithole@gmail.com</p>
+      <p><b>Cell:</b> 0657449134</p>
+    </div>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
