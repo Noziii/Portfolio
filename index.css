@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -6,24 +8,61 @@ body {
   height: 95vh;
 }
 
-.desc{
-  color:rgb(59, 59, 59) ;
-  font-size: 50px;
-  margin-left: 600px;
-  margin-top: -400px;
-  font-family: lucida handwriting;
-}
-
 .name {
   color: rgb(59, 59, 59);
-  font-size: 100px;
+  font-size: 120px;
   font-weight: bold;
   line-height: 350px;
-  margin-left: 400px;
-  margin-top: 250px;
+  margin-left: 300px;
+  margin-top:30px;
   margin-bottom: 00px;
   
 }
+
+.desc{
+  color:rgb(59, 59, 59) ;
+  font-size: 30px;
+  margin-left: 600px;
+  margin-top: -300px;
+  font-family: lucida handwriting;
+}
+
+
+.typewriter {
+  color:rgb(59, 59, 59) ;
+  font-size: 40px;
+  margin-left: 380px;
+  margin-top: -100px;
+  font-family: lucida handwriting;
+
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+ 
+  letter-spacing: .15em;
+  
+  animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: orange
+  }
+}
+
 
 nav {
   background: rgba(53, 52, 52, 0.301);
@@ -47,8 +86,6 @@ nav ul li {
   margin-left: 210px;
   margin-right: 10px;
   
-
-  
 }
 
 
@@ -70,6 +107,8 @@ a.active {
   padding: 5px 5px;
   border-radius: 15px;
 }
+
+
 
 .footer {
   position: fixed;
@@ -93,15 +132,13 @@ a.active {
 }
 
 
-
-
-    
-    
     
 
     #check {
       display: none;
     }
+
+    
     
     @media (max-width: 800px) {
       .bars {
@@ -111,9 +148,9 @@ a.active {
       nav ul{
         position: absolute;
         width: 100%;
-        background-color: rgba(27, 26, 26, 0.837);
-        height: 100vh;
-        top: 63px;
+        background-color: rgba(137, 130, 130, 0.944);
+        height: 99vh;
+        top: 74px;
         left: -110%; 
         transition: all 1s;
       }
@@ -122,7 +159,38 @@ a.active {
         display: block;
         padding: 30px 180px;
         text-transform: uppercase;
+        margin-left: 60px;
       }
+
+    
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+          Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        background: url(images/jess-bailey-q10VITrVYUM-unsplash.jpg);
+        background-size: cover;
+        height: 50vh;
+      }
+
+      .desc{
+        color:rgb(59, 59, 59) ;
+        font-size: 50px;
+        margin-left: 160px;
+        margin-top: -400px;
+        font-family: lucida handwriting;
+      }
+
+      .name {
+        color: rgb(59, 59, 59);
+        font-size: 70px;
+        font-weight: bold;
+        line-height: 350px;
+        margin-left: 100px;
+        margin-top: 250px;
+        margin-bottom: 00px;
+        
+      }
+      
   
       
   

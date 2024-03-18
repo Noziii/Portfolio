@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="portfolio.js"></script>
+    <link rel="stylesheet" href="normalise.css" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <script
+      src="https://kit.fontawesome.com/4e9b44f205.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" name="" id="check" />
+      <label for="check" class="bars"><i class="fa-solid fa-bars"></i></label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html"> About </a></li>
+        <li><a href="portfolio" class="active">Portfolio</a></li>
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <p for="name" class="webname">Hair website</p>
+    <p for="description" class="desc">
+      Using React JS I coded a basic website based on black womens' hair and
+      embracing it as an art form. The website highlights all my design
+      decisions where I take into consideration UX and UI and as well as
+      aesthetics to appeal to users.
+    </p>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="images/Hair - Home.png" class="one" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/Hair - About .png" class="two" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/Hair - Theory 1.png" class="three" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/Hair - Design.png" class="four" />
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div class="footer">
+      <p><b>Email:</b> nozii.sithole@gmail.com</p>
+      <p><b>Cell:</b> 0657449134</p>
+    </div>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
