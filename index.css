@@ -59,7 +59,7 @@ body {
     border-color: transparent
   }
   50% {
-    border-color: orange
+    border-color: rgba(255, 255, 255, 0)
   }
 }
 
